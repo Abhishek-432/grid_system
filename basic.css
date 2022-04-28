@@ -1,0 +1,368 @@
+*{
+    margin:0px;
+    padding:0px;
+    padding-top:10px;
+    box-sizing: border-box;
+}
+.container{
+    height:560px;
+    width:560px;
+    grid-template-columns: 80px 80px 80px 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px 80px;
+    font-size: 20px;
+    font-weight: bold;
+    display: grid;
+    margin:auto;
+    background: gray;
+    margin-top: 0px;
+    padding-top: 0px;
+    
+}
+.header1{
+    grid-row:1/2;
+    grid-column: 1/5; 
+    line-height: 80px;
+    background-color: lightslategrey;
+    border-top-left-radius:20px;
+}
+.header2{
+    grid-row: 1/2;
+    grid-column:5/6;
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(60, 61, 61);
+    color: white;
+}
+.header3{
+    grid-row: 1/2;
+    grid-column:6/7;
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(60, 61, 61);
+    color: white;
+}
+.header4{
+    grid-row: 1/2;
+    grid-column:7/8;
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(60, 61, 61);
+    color: white;
+    border-top-right-radius: 20px;
+}
+.section1{
+    grid-row:2/3;
+    grid-column:1/8;
+    line-height:80px;
+    text-align:right;
+    padding-right: 20px;
+    padding-top: 0px;
+    background-color: rgb(139, 145, 148);
+    color: white;
+   
+}
+.section31{
+    grid-row:3/4;
+    grid-column:1/2;
+    border:1px solid white;
+    line-height: 80px;
+    text-align: center;
+    background-color: lightslategrey;
+    color:white;
+
+}
+.section32{
+    grid-row:3/4;
+    grid-column:2/3;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: lightslategrey;
+    color:red;
+}
+.section33{
+    grid-row:3/4;
+    grid-column:3/4;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: lightslategrey;
+    color:white;
+}
+.section34{
+    grid-row:3/4;
+    grid-column:4/5;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: lightslategrey;
+    color:white;
+}
+.section35{
+    grid-row:3/4;
+    grid-column:5/6;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(60, 61, 61);
+    color: white;
+}
+.section36{
+    grid-row:3/4;
+    grid-column:6/7;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(60, 61, 61);
+    color: white;
+}
+.section37{
+    grid-row:3/4;
+    grid-column:7/8;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(60, 61, 61);
+    color: white;
+}
+.section41{
+    grid-row:4/5;
+    grid-column:1/2;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(139, 145, 148);
+    color:white;
+}
+.section42{
+    grid-row:4/5;
+    grid-column:2/3;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color:rgb(139, 145, 148);
+    color:white;
+}
+.section43{
+    grid-row:4/5;
+    grid-column:3/4;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(139, 145, 148);
+    color:white;
+}
+.section44{
+    grid-row:4/5;
+    grid-column:4/5;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: lightslategrey;
+    color:white;
+}
+.section45{
+    grid-row:4/5;
+    grid-column:5/6;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(60, 61, 61);
+    color: white;
+}
+.section46{
+    grid-row:4/5;
+    grid-column:6/7;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(60, 61, 61);
+    color: white;
+}
+.section47{
+    grid-row:4/5;
+    grid-column:7/8;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(60, 61, 61);
+    color: white;
+}
+.section51{
+    grid-row:5/6;
+    grid-column:1/2;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(139, 145, 148);
+    color:white;
+}
+.section52{
+    grid-row:5/6;
+    grid-column:2/3;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(139, 145, 148);
+    color:white;
+}
+.section53{
+    grid-row:5/6;
+    grid-column:3/4;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(139, 145, 148);
+    color:white;
+}
+.section54{
+    grid-row:5/6;
+    grid-column:4/5;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: lightslategrey;
+    color:white;
+}
+.section55{
+    grid-row:5/6;
+    grid-column:5/6;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(60, 61, 61);
+    color: white;
+}
+.section56{
+    grid-row:5/6;
+    grid-column:6/7;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(60, 61, 61);
+    color: white;
+}
+.section57{
+    grid-row:5/6;
+    grid-column:7/8;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(60, 61, 61);
+    color: white;
+}
+.section61{
+    grid-row:6/7;
+    grid-column:1/2;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(139, 145, 148);
+    color:white;
+}
+.section62{
+    grid-row:6/7;
+    grid-column:2/3;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(139, 145, 148);
+    color:white;
+}
+.section63{
+    grid-row:6/7;
+    grid-column:3/4;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(139, 145, 148);
+    color:white;
+}
+.section64{
+    grid-row:6/7;
+    grid-column:4/5;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: lightslategrey;
+    color:white;
+}
+.section65{
+    grid-row:6/7;
+    grid-column:5/6;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(60, 61, 61);
+    color: white;
+}
+.section66{
+    grid-row:6/7;
+    grid-column:6/7;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(60, 61, 61);
+    color: white;
+}
+.section67{
+    grid-row:6/7;
+    grid-column:7/8;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(60, 61, 61);
+    color: white;
+}
+.section71{
+    grid-row:7/8;
+    grid-column:1/2;
+    line-height: 80px;
+    text-align: center;
+    background-color: lightslategrey;
+    color:white;
+    border-bottom-left-radius:20px;
+}
+.section72{
+    grid-row:7/8;
+    grid-column:2/3;
+    line-height: 80px;
+    text-align: center;
+    background-color:rgb(139, 145, 148);
+    color:white;
+}
+.section73{
+    grid-row:7/8;
+    grid-column:3/5;
+    line-height: 80px;
+    text-align: center;
+    background:linear-gradient(red,yellow);
+    color:white;
+}
+.section75{
+    grid-row:7/8;
+    grid-column:5/6;
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(60, 61, 61);
+    color: white;
+}
+.section76{
+    grid-row:7/8;
+    grid-column:6/7;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(60, 61, 61);
+    color: white;
+}
+.section77{
+    grid-row:7/8;
+    grid-column:7/8;
+    border:1px solid rgb(245, 243, 243);
+    line-height: 80px;
+    text-align: center;
+    background-color: rgb(60, 61, 61);
+    color: white;
+    border-bottom-right-radius:20px;
+}
